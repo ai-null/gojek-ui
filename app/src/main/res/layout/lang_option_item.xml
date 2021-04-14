@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/medium_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/option_lang"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/green_rounded_background"
+            android:gravity="center"
+            android:text="@string/id"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Indonesia"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/medium_margin"
+            android:textColor="@color/colorGrey" />
+
+        <ImageView
+            android:src="@drawable/ic_baseline_check_24"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:padding="5dp"
+            android:background="@drawable/green_rounded_background"
+            app:tint="@android:color/white" />
+    </LinearLayout>
+</layout>

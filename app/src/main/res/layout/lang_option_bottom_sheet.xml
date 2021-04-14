@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corner_top"
+    android:padding="@dimen/medium_margin">
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Pilihan Bahasa"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textColor="@color/colorGrey"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:text="Mau pakai bahasa apa?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/lang_option_item" />
+    <include layout="@layout/lang_option_item" />
+    <include layout="@layout/lang_option_item" />
+    <include layout="@layout/lang_option_item" />
+
+</LinearLayout>

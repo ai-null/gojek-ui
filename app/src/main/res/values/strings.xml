@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">gojek</string>
+
+    <!--  Strings  -->
+    <string name="id">id</string>
+    <string name="indonesia">Bahasa Indonesia</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+
+    <!-- Disclaimer  -->
+    <string name="intro_disclaimer">Dengan masuk atau mendaftar, kamu menyetujui Ketentuan Layanan dan Kebijakan Privasi.</string>
+    <string name="sample_punchline">Selamat Datang di Gojek!</string>
+    <string name="sample_description">Aplikasi yang bikin hidup kamu lebih nyaman. Siap bantuin semua kehidupanmu, kapan pun, dan di mana pun.</string>
+</resources>
